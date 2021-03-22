@@ -1,0 +1,56 @@
+/*** MAIN ***/
+
+main {
+	width: 98vw;
+	height: 98vh;
+	border: 1px solid red;
+	padding-bottom: 7.1%;
+}
+
+h1 {
+	display: flex;
+	justify-content: center;
+}
+
+.slider {
+	margin-bottom: 1em;
+	border: 1px dotted orange;
+	display: flex;
+	justify-content: center;
+	height: 40%;
+}
+
+.firstCategoryContainer {
+	margin-bottom: 1em;
+	width: 65%;
+	height: 20%;
+	border: 1px dotted red;
+	display: flex;
+	justify-content: center;
+}
+.secondCategoryContainer {
+	margin-bottom: 1em;
+	width: 65%;
+	height: 20%;
+	border: 1px dotted orange;
+	display: flex;
+	justify-content: center;
+}
+.lastAdded {
+	margin-bottom: 1em;
+	width: 65%;
+	height: 20%;
+	border: 1px dotted red;
+	display: flex;
+	justify-content: center;
+}
+.newsletter {
+	bottom: 62.5vh;
+	margin-left: 66%;
+	width: 34%;
+	height: 60%;
+	border: 1px dotted darkblue;
+	display: flex;
+	justify-content: center;
+	position: relative;
+}
