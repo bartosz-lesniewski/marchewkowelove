@@ -1,4 +1,5 @@
 import "../styles/main.css";
+import SignInUp from "./SignInUp";
 
 function Main() {
 	return (
@@ -8,7 +9,9 @@ function Main() {
 			<div className="firstCategoryContainer">firstCatContainer</div>
 			<div className="secondCategoryContainer">secondCatContainer</div>
 			<div className="lastAdded">last added</div>
-			<div className="newsletter">newsletter</div>
+			<div className="signInUp">
+				<SignInUp />
+			</div>
 		</main>
 	);
 }

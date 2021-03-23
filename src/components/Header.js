@@ -14,7 +14,6 @@ function Header() {
 					<li className="linkList">Przepisy</li>
 					<li className="linkList">FB</li>
 					<li className="linkList">IG</li>
-					<li className="linkList">Login</li>
 				</ul>
 			</div>
 		</header>
