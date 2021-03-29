@@ -1,0 +1,21 @@
+/*** HEADER ***/
+
+header {
+	border: 1px solid orange;
+	width: 98vw;
+	height: 6vw;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+	.logo {
+		width: 100px;
+		height: 100px;
+	}
+
+	.linksList {
+		display: flex;
+		list-style-type: none;
+		margin: 0 1vw 0 1vw;
+	}
+}

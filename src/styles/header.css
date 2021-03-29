@@ -1,24 +1,28 @@
 /*** HEADER ***/
-
 header {
 	border: 1px solid orange;
 	width: 98vw;
 	height: 6vw;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
+	-ms-flex-pack: distribute;
 	justify-content: space-around;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
 	align-items: center;
 }
 
-.logo {
+header .logo {
 	width: 100px;
 	height: 100px;
 }
 
-.linksList {
+header .linksList {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 	list-style-type: none;
-}
-
-.linkList {
 	margin: 0 1vw 0 1vw;
 }
+/*# sourceMappingURL=header.css.map */

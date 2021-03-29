@@ -4,6 +4,6 @@ I had this site in 2016 on wordpress, fb and ig. And now its a perfect time to g
 
 For now there is basic page layout and possibility to register, login and logout. To do all of this I used React useState (few), setEffect and all data is stored in Firebase.
 
-Deadline for complete this website is: 28.04.2021</br>
+Right now im in the middle of recrutation process for new work, so I need to make some another project. I will back to this one in two weeks.</br>
 
 Best regards,</br>BL
