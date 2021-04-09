@@ -6,6 +6,9 @@ const IsLogged = ({ handleLogout }) => {
 			<nav>
 				<h2> Jesteś zalogowany</h2>
 				<button onClick={handleLogout}>Wyloguj</button>
+				<button>Panel użytkownika</button>
+				<button>Dodaj nowy artykuł</button>
+				<button>Edytuj swoje artykuły</button>
 			</nav>
 		</section>
 	);
