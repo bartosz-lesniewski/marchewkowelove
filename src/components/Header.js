@@ -1,11 +1,14 @@
 import "../styles/header.css";
 import logo from "../img/marchewki_logo.jpg";
 import SearchBar from "./SearchBar.js";
+import { Link } from "react-router-dom";
 
 function Header() {
 	return (
 		<header>
-			<img className="logo" src={logo} alt="MarchewkoweLove logo"></img>
+			<Link to="/">
+				<img className="logo" src={logo} alt="MarchewkoweLove logo" />
+			</Link>
 			<div className="searchBar">
 				<SearchBar />
 			</div>
