@@ -3,12 +3,24 @@ import React from "react";
 function AddNewArticle() {
 	return (
 		<div>
-			<h3>Tytuł:</h3>
-			<input placeholder="Tutaj wpisz tytuł artykułu:" />
-			<h3>Lid:</h3>
-			<input placeholder="Tutaj wpisz akapit wprowadzający:" />
-			<h3>Treść:</h3>
-			<input placeholder="Tutaj wpisz treść właściwą artykułu:" />
+			<label for="article--title">Tytuł:</label>
+			<input
+				className="article--title"
+				placeholder="Tutaj wpisz tytuł artykułu:"
+				required
+			/>
+			<label for="article--lid">Lid:</label>
+			<input
+				className="article--lid"
+				placeholder="Tutaj wpisz akapit wprowadzający:"
+				required
+			/>
+			<label for="article--content">Treść:</label>
+			<input
+				className="article--content"
+				placeholder="Tutaj wpisz treść właściwą artykułu:"
+				required
+			/>
 			<button>Opublikuj</button>
 		</div>
 	);
