@@ -3,8 +3,13 @@ import React from "react";
 function AddNewArticle() {
 	return (
 		<div>
-			<h1>work</h1>
-			<p>here i will present my projects</p>
+			<h3>Tytuł:</h3>
+			<input placeholder="Tutaj wpisz tytuł artykułu:" />
+			<h3>Lid:</h3>
+			<input placeholder="Tutaj wpisz akapit wprowadzający:" />
+			<h3>Treść:</h3>
+			<input placeholder="Tutaj wpisz treść właściwą artykułu:" />
+			<button>Opublikuj</button>
 		</div>
 	);
 }
