@@ -1,0 +1,38 @@
+.article--container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100vw;
+
+	.title--container {
+		margin: 1%;
+		display: flex;
+		flex-direction: column;
+
+		.article--title {
+			width: 60vw;
+			height: 100px;
+		}
+	}
+
+	.lid--container {
+		display: flex;
+		flex-direction: column;
+
+		.article--lid {
+			width: 60vw;
+			height: 100px;
+		}
+	}
+
+	.content--container {
+		margin: 1%;
+		display: flex;
+		flex-direction: column;
+
+		.article--content {
+			width: 60vw;
+			height: 200px;
+		}
+	}
+}
