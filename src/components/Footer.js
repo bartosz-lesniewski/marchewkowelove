@@ -1,7 +1,7 @@
 import "../styles/footer.css";
 
 function Footer() {
-	return <footer>test footer</footer>;
+	return <footer>created by Bartosz Leśniewski 2021</footer>;
 }
 
 export default Footer;

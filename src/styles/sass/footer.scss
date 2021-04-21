@@ -2,5 +2,8 @@ footer {
 	margin-top: 1vh;
 	width: 98vw;
 	height: 4vh;
-	border: 1px solid pink;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 14px;
 }
