@@ -1,0 +1,63 @@
+.secondCategoryContainer .secondCatWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.secondCategoryContainer .secondCatWrapper .wrap1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 350px;
+  height: 150px;
+}
+
+.secondCategoryContainer .secondCatWrapper .wrap1 .img__1__1 {
+  margin-right: 5px;
+  width: 150px;
+}
+
+.secondCategoryContainer .secondCatWrapper .wrap1 .art__1__1 {
+  margin-right: 5px;
+}
+
+.secondCategoryContainer .secondCatWrapper .wrap2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 350px;
+  height: 150px;
+}
+
+.secondCategoryContainer .secondCatWrapper .wrap2 .img__2__1 {
+  margin-right: 5px;
+  width: 150px;
+}
+
+.secondCategoryContainer .secondCatWrapper .wrap2 .art__2__1 {
+  margin-right: 5px;
+}
+
+.secondCategoryContainer .secondCatWrapper .wrap3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 350px;
+  height: 150px;
+}
+
+.secondCategoryContainer .secondCatWrapper .wrap3 .img__3__1 {
+  margin-right: 5px;
+  width: 150px;
+}
+
+.secondCategoryContainer .secondCatWrapper .wrap3 .art__3__1 {
+  margin-right: 5px;
+}
+/*# sourceMappingURL=secondCatWrapper.css.map */

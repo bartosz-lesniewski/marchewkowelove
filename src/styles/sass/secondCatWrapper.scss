@@ -1,0 +1,43 @@
+.secondCategoryContainer {
+	.secondCatWrapper {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		.wrap1 {
+			display: flex;
+			width: 350px;
+			height: 150px;
+			.img__1__1 {
+				margin-right: 5px;
+				width: 150px;
+			}
+			.art__1__1 {
+				margin-right: 5px;
+			}
+		}
+		.wrap2 {
+			display: flex;
+			width: 350px;
+			height: 150px;
+			.img__2__1 {
+				margin-right: 5px;
+				width: 150px;
+			}
+			.art__2__1 {
+				margin-right: 5px;
+			}
+		}
+		.wrap3 {
+			display: flex;
+			width: 350px;
+			height: 150px;
+			.img__3__1 {
+				margin-right: 5px;
+				width: 150px;
+			}
+			.art__3__1 {
+				margin-right: 5px;
+			}
+		}
+	}
+}

@@ -1,6 +1,7 @@
 import "../styles/main.css";
 import SignInUp from "./SignInUp";
 import FirstCatContainer from "./FirstCatContainer";
+import SecondCatContainer from "./SecondCatContainer";
 
 function Main() {
 	return (
@@ -10,7 +11,9 @@ function Main() {
 			<div className="firstCategoryContainer">
 				<FirstCatContainer />
 			</div>
-			<div className="secondCategoryContainer">secondCatContainer</div>
+			<div className="secondCategoryContainer">
+				<SecondCatContainer />
+			</div>
 			<div className="lastAdded">last added</div>
 			<div className="signInUp">
 				<SignInUp />
